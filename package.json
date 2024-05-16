@@ -1,0 +1,38 @@
+{
+  "name": "investment-rentability-importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "pre-commit": [
+    "eslint-check"
+  ],
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-check": "eslint \"**/*.{js,ts}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroParisi/investment-rentability-importer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeandroParisi/investment-rentability-importer/issues"
+  },
+  "homepage": "https://github.com/LeandroParisi/investment-rentability-importer#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "pre-commit": "^1.2.2",
+    "ts-node": "^10.9.2",
+    "zod": "^3.23.8"
+  }
+}
